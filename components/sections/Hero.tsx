@@ -116,7 +116,7 @@ export default function Hero() {
             <p className="italic text-xs md:text-sm text-grey-400/80 font-light">
               Pushing your business out to the world no gats hard!
             </p>
-            <p className="text-sm md:text-base text-slate-300 leading-relaxed">
+            <p className="text-sm md:text-base text-slate-300 leading-relaxed hidden md:flex">
               We build powerful websites for business owners who want to convert visitors into customers.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function Hero() {
               </button>
             </a>
 
-            <div className="flex flex-col items-center sm:items-start">
+            <div className=" hidden md:flex flex-col items-center sm:items-start">
               <span className="text-white font-medium italic text-sm">&quot;Exceptional quality&quot;</span>
               <span className="text-xs text-slate-500">— Happy Client</span>
             </div>

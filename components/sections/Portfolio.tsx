@@ -5,10 +5,6 @@ import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 
-if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger);
-}
-
 const PROJECTS = [
   {
     title: "Lumina",

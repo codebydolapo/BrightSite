@@ -9,7 +9,7 @@ import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-[#020617]">
+    <main className="relative min-h-screen max-w-screen overflow-x-hidden bg-[#020617]">
       <Navbar />
       <Hero />
       {/* Adding a spacer or ensuring Hero has enough 

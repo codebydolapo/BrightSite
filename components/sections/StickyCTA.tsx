@@ -16,7 +16,7 @@ export default function StickyCTA() {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-6 right-6 z-50 hidden md:flex">
       <a
         href="https://wa.me/2348164394476"
         target="_blank"

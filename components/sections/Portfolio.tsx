@@ -8,7 +8,7 @@ import { ProjectCard } from "@/components/reusables/ProjectCard";
 const PROJECTS = [
   {
     title: "Lumina",
-    type: "SaaS Dashboard",
+    type: "Commercial",
     summary: "Solar panel installation website for a top renewable energy company.",
     outcomes: ["Real-time analytics", "Custom workflows", "Cloud-native"],
     status: "Completed",
@@ -57,7 +57,7 @@ export default function Portfolio() {
     <section
       ref={container}
       id="work"
-      className="relative z-10 bg-slate-950 px-6 md:px-20 py-24"
+      className="relative z-10 bg-slate-950 px-3 md:px-20 py-24"
     >
       {/* Header */}
       <div className="mb-14 max-w-2xl">

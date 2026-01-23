@@ -130,7 +130,7 @@ export default function Hero() {
             </a>
 
             <div className="flex flex-col items-center sm:items-start">
-              <span className="text-white font-medium italic text-sm">"Exceptional quality"</span>
+              <span className="text-white font-medium italic text-sm">&quot;Exceptional quality&quot;</span>
               <span className="text-xs text-slate-500">— Happy Client</span>
             </div>
           </div>

@@ -1,9 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { gsap } from "@/lib/gsap";
+import { gsap, ScrollTrigger } from "@/lib/gsap";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 
 if (typeof window !== "undefined") {
@@ -75,7 +74,7 @@ export default function Portfolio() {
           Our Work
         </h2>
         <p className="portfolio-reveal mt-4 text-lg text-slate-400">
-          A few projects we've worked on in the past, converting users into customers.
+          A few projects we&apos;ve worked on in the past, converting users into customers.
         </p>
       </div>
 

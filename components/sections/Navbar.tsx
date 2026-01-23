@@ -61,7 +61,7 @@ export default function Navbar() {
                     // className="inline-flex items-center gap-3 rounded-xl bg-green-600 px-6 py-4 font-bold text-white shadow-[0_0_30px_rgba(34,197,94,0.35)] transition hover:scale-105 hover:bg-green-700"
                     >
                         <button className="rounded-full bg-white/5 border border-white/10 px-5 py-2 text-sm font-bold text-white hover:bg-white/10 transition-all active:scale-95">
-                            Let's Talk
+                            Let&apos;s Talk
                         </button>
                     </a>
                 </div>

@@ -42,7 +42,7 @@ export default function Testimonials() {
 
   useGSAP(
     (context) => {
-      const cards = context.selector(".testimonial-card");
+      const cards = context.selector?.(".portfolio-reveal");
 
       if (!cards?.length) return;
 

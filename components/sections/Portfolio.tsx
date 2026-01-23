@@ -40,7 +40,7 @@ export default function Portfolio() {
 
   useGSAP(
     (context) => {
-      const items = context.selector(".portfolio-reveal");
+      const items = context.selector?.(".portfolio-reveal");
       if (!items?.length) return;
 
       gsap.fromTo(

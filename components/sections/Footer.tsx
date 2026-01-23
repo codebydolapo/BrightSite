@@ -7,7 +7,7 @@ function Footer() {
     {/* BRAND */}
     <div>
       <h3 className="text-2xl font-extrabold text-white mb-4">
-        Bright
+        BrightSite
       </h3>
       <p className="text-slate-400 max-w-sm">
         We build fast, modern websites for Nigerian businesses

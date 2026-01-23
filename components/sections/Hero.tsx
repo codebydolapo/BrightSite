@@ -100,10 +100,14 @@ export default function Hero() {
 
         {/* CONTENT */}
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left space-y-8 lg:space-y-12 order-2 lg:order-1 min-w-1/2">
-          <h1 className="reveal text-4xl md:text-4xl font-extrabold tracking-tight text-white leading-[1.5]">
-            Get a banger website <br />
-            <span className=" text-2xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400">
-              <span className="text-2xl md:text-4xl align-end">from </span>
+          <h1 className="reveal text-3xl md:text-4xl font-extrabold tracking-tight text-white leading-[1.1]">
+            Get a banger website
+            <br />
+              <span className="text-xl md:text-4xl align-end">
+                from {" "}
+              </span>
+              <br className="hidden md:flex"/>
+            <span className=" text-6xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400">
               ₦50,000
             </span>
           </h1>
@@ -112,7 +116,7 @@ export default function Hero() {
             <p className="italic text-xs md:text-sm text-grey-400/80 font-light">
               Pushing your business out to the world no gats hard!
             </p>
-            <p className="text-base text-slate-300 leading-relaxed">
+            <p className="text-sm md:text-base text-slate-300 leading-relaxed">
               We build powerful websites for business owners who want to convert visitors into customers.
             </p>
           </div>
@@ -122,7 +126,6 @@ export default function Hero() {
             <a
               href="https://wa.me/2348164394476"
               target="_blank"
-              // className="inline-flex items-center gap-3 rounded-xl bg-green-600 px-6 py-4 font-bold text-white shadow-[0_0_30px_rgba(34,197,94,0.35)] transition hover:scale-105 hover:bg-green-700"
             >
               <button className="w-full sm:w-auto rounded-full bg-blue-600 px-10 py-4 font-bold text-white shadow-[0_15px_30px_rgba(37,99,235,0.4)] transition-all hover:scale-105 hover:bg-blue-500 active:scale-95">
                 Get Started

@@ -135,7 +135,6 @@ export default function Hero() {
             {/* THE MOCKUP IMAGE */}
             <div className="floating-card relative z-20 w-full max-w-[600px] perspective-1000">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-slate-900">
-                    {/* Suggestion: Replace /heroLaptop2.png with a 3D Mockup of your BMW site */}
                     <Image
                         src="/portfolio/rabiu-autos.png" 
                         alt="Project Showcase"
@@ -147,12 +146,12 @@ export default function Hero() {
                 </div>
 
                 {/* UVP FLOATING CARDS (Glassmorphism) */}
-                <div className="uvp-tag absolute -bottom-6 -left-6 md:-left-12 p-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl z-30">
+                <div className="uvp-tag absolute -bottom-6 -left-6 md:-left-12 p-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl z-30 md:flex hidden">
                     <p className="text-blue-400 text-xs font-bold uppercase tracking-wider mb-1">Benefit</p>
                     <p className="text-white text-sm font-medium">1 Year Maintenance</p>
                 </div>
 
-                <div className="uvp-tag absolute -top-8 -right-4 md:-right-8 p-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl z-30">
+                <div className="uvp-tag absolute -top-8 -right-4 md:-right-8 p-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl z-30 md:flex hidden">
                     <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                         <p className="text-white text-sm font-medium italic">Free Hosting Included</p>

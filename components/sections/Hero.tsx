@@ -110,7 +110,7 @@ export default function Hero() {
             <div className="flex flex-col md:flex-row md:items-baseline gap-2">
               <span className="text-slate-400 text-lg md:text-2xl font-medium">starting from</span>
               <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400 drop-shadow-2xl">
-                ₦60,000
+                ₦99,999
               </span>
             </div>
           </h1>

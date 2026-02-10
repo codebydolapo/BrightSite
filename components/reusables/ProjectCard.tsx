@@ -76,21 +76,26 @@ export function ProjectCard({ project }: { project: Project }) {
         
         <div className="relative aspect-16/8 w-full rounded-t-xl overflow-hidden border-x border-t border-white/10 shadow-2xl transition-transform duration-700 group-hover:translate-y-[-8px] group-hover:scale-[1.02]">
            {hasImage ? (
-             <Image
-                src={project.image!}
-                alt={project.title}
-                fill
-                className="object-cover object-top"
-              />
+             <a
+            href={project.deployment}
+            target="_blank"
+            className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-blue-400 transition-colors"
+          >
+            <Image
+               src={project.image!}
+               alt={project.title}
+               fill
+               className="object-cover object-top"
+             />
+          </a>
            ) : (
-            //  <div className={`w-full h-full bg-gradient-to-br ${project.gradient} opacity-20`} />
             null
            )}
         </div>
       </div>
       
       {/* Subtle Bottom Overlay to ground the image */}
-      <div className="absolute inset-0 pointer-events-none border-[1px] border-white/5 rounded-[2.5rem]" />
+      <div className="absolute inset-0 pointer-events-none border border-white/5 rounded-[2.5rem]" />
     </article>
   );
 }

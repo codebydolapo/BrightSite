@@ -7,16 +7,6 @@ import { ProjectCard } from "@/components/reusables/ProjectCard";
 
 const PROJECTS = [
   {
-    title: "Lumina",
-    type: "Commercial",
-    summary: "Solar panel installation website for a top renewable energy company.",
-    outcomes: ["Real-time analytics", "Custom workflows", "Cloud-native"],
-    status: "Completed",
-    gradient: "from-cyan-500/20 to-blue-500/20",
-    image: "/portfolio/lumina.png",
-    deployment: "https://lumina-tau-mauve.vercel.app/",
-  },
-  {
     title: "Rabiu Autos",
     type: "Commercial",
     summary: "Car dealership website for a leading automotive retailer, showcasing inventory and services.",
@@ -25,6 +15,26 @@ const PROJECTS = [
     gradient: "from-purple-500/20 to-blue-500/20",
     image: "/portfolio/rabiu-autos.png",
     deployment: "https://rabiu-autos-832j.vercel.app/",
+  },
+  {
+    title: "Oge's Closet",
+    type: "Commercial",
+    summary: "E-commerce platform for a trendy fashion boutique, featuring product listings and secure checkout.",
+    outcomes: ["Real-time analytics", "Custom workflows", "Cloud-native"],
+    status: "Completed",
+    gradient: "from-green-500/20 to-blue-500/20",
+    image: "/portfolio/oges-closet.png",
+    deployment: "https://oge-s-closet.vercel.app/",
+  },
+  {
+    title: "Lumina",
+    type: "Commercial",
+    summary: "Solar panel installation website for a top renewable energy company.",
+    outcomes: ["Real-time analytics", "Custom workflows", "Cloud-native"],
+    status: "Completed",
+    gradient: "from-cyan-500/20 to-blue-500/20",
+    image: "/portfolio/lumina.png",
+    deployment: "https://lumina-tau-mauve.vercel.app/",
   },
   {
     title: "Tiny Wags",
